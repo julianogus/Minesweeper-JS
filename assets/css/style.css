@@ -1,0 +1,39 @@
+div {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	gap: 10px;
+}
+
+#nBombas {
+	font-family: "Roboto", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+	font-variation-settings: "wdth" 100;
+	font-size: 20px;
+}
+
+button {
+	font-family: "Roboto", sans-serif;
+	border-radius: 8px;
+	border-width: 0;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 390;
+	line-height: 10px;
+	padding: 10px 12px;
+	text-align: center;
+	vertical-align: baseline;
+}
+
+.bottom {
+	min-height: 60px;
+}
+
+#MineSweeper {
+	box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+}

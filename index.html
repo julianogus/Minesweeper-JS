@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Minesweeper em JS</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body oncontextmenu="return false;">
+	<div class="dificuldade">
+		<button id="dificuldadeBeginner">Beginner</button>
+		<button id="dificuldadeIntermediate">Intermediate</button>
+		<button id="dificuldadeExpert">Expert</button>
+	</div>
+	<div class="top">
+		<p id="nBombas"></p>
+	</div>
+	<div id="jogo">
+		<canvas id="MineSweeper"></canvas>
+	</div>
+	<div class="bottom">
+		<button id="debug">Debug</button>
+		<button id="themeStock">Default Theme</button>
+		<button id="themeNight">NightMode</button>
+		<button id="themeSynth">Synthwave Theme</button>
+		<button id="themeTropical">Tropical Theme</button>
+		<button id="themeLear">Lear Theme</button>
+	</div>
+	<script src=assets/js/themes.js></script>
+	<script src=assets/js/bombas.js></script>
+	<script src=assets/js/dificuldade.js></script>
+</body>
+</html>
