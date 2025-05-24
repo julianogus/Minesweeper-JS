@@ -7,7 +7,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body oncontextmenu="return false;">
+<body>
 	<div class="dificuldade">
 		<button id="dificuldadeBeginner">Beginner</button>
 		<button id="dificuldadeIntermediate">Intermediate</button>
@@ -17,7 +17,7 @@
 		<p id="nBombas"></p>
 	</div>
 	<div id="jogo">
-		<canvas id="MineSweeper"></canvas>
+		<canvas id="MineSweeper" oncontextmenu="return false;"></canvas>
 	</div>
 	<div class="bottom">
 		<button id="debug">Debug</button>
