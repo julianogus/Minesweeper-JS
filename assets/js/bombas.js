@@ -213,11 +213,13 @@ function minesweeperGame(){
 		this.flag = function(){ 
 			if(mouse.x >= locationMinWidth && mouse.x <= locationMaxWidth  && (mouse.y >=  locationMinHeight && mouse.y <= locationMaxHeight) ){
 				if(this.clickable == 1){
-					this.clickable = 0;
-					this.flagged = true;
-					mouse.x = false;
-					mouse.y = false;
-					nBombsOriginal--;
+					if(nBombsOriginal > 0){
+						this.clickable = 0;
+						this.flagged = true;
+						mouse.x = false;
+						mouse.y = false;
+						nBombsOriginal--;
+					}
 				}else {
 					this.clickable = 1;
 					mouse.x = false;
