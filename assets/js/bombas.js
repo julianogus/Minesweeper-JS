@@ -195,6 +195,11 @@ function minesweeperGame(){
 					} else if(show == 1 && this.bomb == 0){
 						this.clicked();
 						this.showArea();
+						if(this.flagged == true){
+							nBombsOriginal++;
+							escreverBombas();
+							this.flagged = false;
+						}
 					}
 					else {
 						l = 1;
