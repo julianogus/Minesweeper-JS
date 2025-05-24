@@ -82,7 +82,7 @@ function defineCouleur(theme){
 			couleurTextButton = "#333333";
 			break;
 	}
-	pBombs.style.color = couleurText;
+	pBombs.style.color = couleurTextButton;
 	drawBackground();
 }
 
