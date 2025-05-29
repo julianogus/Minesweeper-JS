@@ -89,7 +89,7 @@ function defineCouleur(theme){
 for(let g = 0; g < themes.length; g++){
 	themes[g].addEventListener("click", function(event){
 		theme = themes[g].id;
-		if(lostQM != true){
+		if(lostQM != true && nTiles > 0){
 			defineCouleur(theme);
 		}
 	});
