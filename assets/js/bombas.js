@@ -205,10 +205,7 @@ function minesweeperGame(){
 						l = 1;
 					}
 				} else {
-					if(this.flagged == true || mouse.x >= locationMinWidth && mouse.x <= locationMaxWidth  && (mouse.y >=  locationMinHeight && mouse.y <= locationMaxHeight) && firstClickQM == false ){
-						this.flag();
-					}
-						
+					this.flag();
 				}
 			}
 			this.draw();
